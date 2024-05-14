@@ -171,21 +171,21 @@ losses[['loss','val_loss']].plot()
 
 model.metrics_names
 
-print("Vijayaraj V  212222230174")
+print("Saileshkumar A 212222230126")
 model.evaluate(test_image_gen)
 
 pred_probabilities = model.predict(test_image_gen)
 
 
-print("Vijayaraj V  212222230174")
+print("Saileshkumar A  212222230126")
 test_image_gen.classes
 
 predictions = pred_probabilities > 0.5
-print("Vijayaraj V  212222230174")
+print("Saileshkumar A  212222230126")
 print(classification_report(test_image_gen.classes,predictions))
 
 
-print("Vijayaraj V  212222230174")
+print("Saileshkumar A  212222230126")
 confusion_matrix(test_image_gen.classes,predictions)
 
 ````
@@ -200,7 +200,7 @@ confusion_matrix(test_image_gen.classes,predictions)
 
 ### Classification Report
 
-![image](https://github.com/etjabajasphin/malaria-cell-recognition/assets/121303741/eb6fb1b2-9e7c-4a2b-a941-915ecf890a14)
+![Screenshot 2024-05-14 163741](https://github.com/SAILESHKUMAR33/malaria-cell-recognition/assets/113497410/98943d28-4286-4b16-9689-05fb789a1582)
 
 
 
